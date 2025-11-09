@@ -1,9 +1,11 @@
-// Smooth scroll for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
-});
+// Simple testimonial slider
+let index = 0;
+const testimonials = document.querySelectorAll(".testimonial");
+
+setInterval(() => {
+  testimonials[index].classList.remove("active");
+  index = (index + 1) % testimonials.length;
+  testimonials[index].classList.add("active");
+}, 4000);
+
+// Optional: Add scroll animation later
