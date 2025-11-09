@@ -3,95 +3,107 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Arshiboot | Instagram Growth Service</title>
+  <title>Arshiboot | Smart Instagram Growth</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <script src="script.js" defer></script>
 </head>
 <body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Arshiboot</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="overlay"></div>
+  <!-- Hero -->
+  <header class="hero" id="home">
     <div class="hero-content">
-      <h1>Grow Your Instagram with <span>Arshiboot</span></h1>
-      <p>Real followers. Real engagement. Real growth.</p>
+      <h1>Grow Smarter with <span>Arshiboot</span></h1>
+      <p>Organic, authentic, and data-driven Instagram growth for creators and businesses.</p>
       <a href="#pricing" class="btn">Get Started</a>
     </div>
   </header>
 
-  <!-- About -->
-  <section class="about">
-    <h2>What is Arshiboot?</h2>
-    <p>Arshiboot helps creators, influencers, and businesses grow their Instagram reach using smart analytics, optimized content strategy, and targeted engagement — all 100% organic and authentic.</p>
-  </section>
-
   <!-- Services -->
-  <section class="services">
+  <section class="services" id="services">
     <h2>Our Services</h2>
-    <div class="service-boxes">
-      <div class="box">
+    <div class="service-grid">
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2331/2331966.png" alt="">
         <h3>Organic Growth</h3>
-        <p>Boost your reach and engagement naturally using proven audience-building strategies.</p>
+        <p>Build genuine followers through targeted outreach, engagement, and optimized posting times.</p>
       </div>
-      <div class="box">
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="">
         <h3>Analytics Dashboard</h3>
-        <p>Track your growth metrics, audience behavior, and post performance in one place.</p>
+        <p>Get insights on performance metrics, audience demographics, and engagement rates.</p>
       </div>
-      <div class="box">
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/189/189665.png" alt="">
         <h3>Engagement Boost</h3>
-        <p>Connect with real, active users interested in your niche for long-term success.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="testimonials">
-    <h2>What Our Clients Say</h2>
-    <div class="testimonial-boxes">
-      <div class="t-box">
-        <p>“Arshiboot helped me grow from 2k to 10k followers in just 2 months — all real engagement!”</p>
-        <span>- Sarah M.</span>
-      </div>
-      <div class="t-box">
-        <p>“Finally, a growth service that’s transparent and delivers real results. Highly recommend.”</p>
-        <span>- Liam K.</span>
+        <p>Drive more likes and comments from real, active users in your niche.</p>
       </div>
     </div>
   </section>
 
   <!-- Pricing -->
   <section class="pricing" id="pricing">
-    <h2>Pricing Plans</h2>
-    <div class="pricing-cards">
-      <div class="card">
+    <h2>Choose Your Plan</h2>
+    <div class="pricing-grid">
+      <div class="price-card">
         <h3>Starter</h3>
-        <p>$19/month</p>
+        <p class="price">$19<span>/mo</span></p>
         <ul>
-          <li>Basic analytics</li>
-          <li>Content optimization tips</li>
-          <li>Email support</li>
+          <li>Basic Analytics</li>
+          <li>Weekly Growth Tips</li>
+          <li>Email Support</li>
         </ul>
-        <a href="#contact" class="btn">Choose Plan</a>
+        <a href="#contact" class="btn-outline">Choose Plan</a>
       </div>
-      <div class="card featured">
+      <div class="price-card featured">
         <h3>Pro</h3>
-        <p>$49/month</p>
+        <p class="price">$49<span>/mo</span></p>
         <ul>
-          <li>Everything in Starter</li>
-          <li>Dedicated growth manager</li>
-          <li>Advanced targeting tools</li>
+          <li>Advanced Analytics</li>
+          <li>Dedicated Growth Manager</li>
+          <li>Priority Support</li>
         </ul>
         <a href="#contact" class="btn">Choose Plan</a>
       </div>
-      <div class="card">
+      <div class="price-card">
         <h3>Elite</h3>
-        <p>$99/month</p>
+        <p class="price">$99<span>/mo</span></p>
         <ul>
-          <li>Everything in Pro</li>
-          <li>Influencer outreach</li>
-          <li>Monthly growth reports</li>
+          <li>Influencer Collaborations</li>
+          <li>Custom Strategy</li>
+          <li>24/7 Support</li>
         </ul>
-        <a href="#contact" class="btn">Choose Plan</a>
+        <a href="#contact" class="btn-outline">Choose Plan</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial active">
+        <p>“Arshiboot grew my page to 20k followers — all real and engaged. I love their transparency!”</p>
+        <h4>- Emily R.</h4>
+      </div>
+      <div class="testimonial">
+        <p>“Finally, a service that actually delivers real growth without fake followers.”</p>
+        <h4>- John D.</h4>
+      </div>
+      <div class="testimonial">
+        <p>“Their analytics dashboard made me understand my audience like never before.”</p>
+        <h4>- Priya S.</h4>
       </div>
     </div>
   </section>
@@ -99,8 +111,12 @@
   <!-- Contact -->
   <section class="contact" id="contact">
     <h2>Get in Touch</h2>
-    <p>Ready to grow your Instagram? Let’s start your journey today.</p>
-    <a href="mailto:info@arshiboot.com" class="btn">Contact Us</a>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
   </section>
 
   <footer>
